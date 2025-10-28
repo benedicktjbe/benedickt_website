@@ -1,11 +1,25 @@
 body {
     background-color: #121212;
     font-family: 'Courier New';
+    color: white;
 }
 
 header {
     text-align: center;
     color: #f5a623;
-    font-size: 64px;
+    font-size: 50px;
     padding-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #f5a623;
+}
+
+.text {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 250px;
+    padding-left: 150px;
 }
