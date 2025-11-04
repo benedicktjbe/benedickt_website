@@ -47,7 +47,7 @@ hr {
   object-fit: cover;
   opacity: 0;
   transform: translateX(40px);
-  animation: slideInText 1.2s ease forwards 0.3s;
+  animation: slideInImage 1.2s ease forwards 0.3s;
 }
 
 /* Keyframes */
