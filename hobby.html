@@ -3,8 +3,59 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Me</title>
+        <title>Hobbies and Talents</title>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel = "stylesheet" href = "style/hobby.css">
     </head>
+
+    <body>
+        <header>Hobbies and Talents</header>
+
+        <p class = "music">Music</p>
+        <img src = "images/music.jpg" alt = "ceilings album cover">
+
+        <audio id="player" src="music/ceilings.mp3"></audio>
+        <div class = "audio-tag">
+            <div class="player">
+
+                <div class="control">
+                    <i class="fas fa-play" id="playbtn"></i>
+                </div>
+
+                <div class="info">
+                    ceilings - Lizzy McAlpine
+                    <div class="bar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+
+                <div id="current">0:00</div>
+            </div>
+        </div>
+
+        <div class="music-div">
+            <p class = "music-text"> Music has always been a hobby of mine, but more than that, it's been a constant companion through every stage of my life. During my hardest moments, music gave me comfort and a sense of understanding when words couldn't. It helps me express emotions I can't easily say out loud and brings peace to my mind even in chaos. No matter how much time passes, music continues to soothe me, inspire me, and remind me that there's beauty even in the hardest days. Have a listen to my current favorite song, <span style = "color: #f5a623">ceilings by Lizzy McAlpine</span>! </p>
+        </div>
+
+        <p class = "video">Songwriting</p>
+
+        <video controls class = "video-play">
+            <source src = "music/Haddasah.mp4">
+        </video>
+
+        <div class = "video-div">
+            <p class = "video-text"> Songwriting has always been a special way for me to express myself and turn my thoughts into something meaningful. It allows me to put my emotions, experiences, and ideas into words and melodies that truly reflect who I am. Whenever I write a song, it feels like I'm creating a piece of my heart that others can understand and connect with. It's not just about making music, it's about storytelling, healing, and sharing a part of my soul with the world. Listen to the song I created dedicated to my girlfriend, <span style = "color: #f5a623">Haddasah</span>. </p>
+        </div>
+
+        <p class = "chess">Chess</p>
+
+        <img src = "images/chess.jpg" alt = "chess picture" class = "chess-img">
+
+        <div class="image-div">
+            <p class = "chess-text">I love <span style = "color: #f5a623">chess</span> because it challenges my mind and teaches me to think strategically and patiently. Every move requires careful planning, foresight, and the ability to anticipate what might happen next. It's a game that sharpens my focus and helps me stay calm under pressure, even when things don't go my way. I enjoy the sense of accomplishment that comes with finding the perfect move or winning a hard-fought match. For me, chess isn't just a game of pieces on a board, it's a way to grow mentally, improve decision-making, and appreciate the beauty of logic and creativity combined.</p>
+        </div>
+
+        <script src = "script/hobby.js"></script>
+    </body>
 </html>

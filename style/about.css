@@ -7,7 +7,7 @@ body {
 header {
   text-align: center;
   color: #f5a623;
-  font-size: 50px;
+  font-size: 40px;
   padding-top: 20px;
 }
 
@@ -50,7 +50,6 @@ hr {
   animation: slideInImage 1.2s ease forwards 0.3s;
 }
 
-/* Keyframes */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
